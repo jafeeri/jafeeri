@@ -1,10 +1,14 @@
-# Hi, I'm Ali Mehdi Jafeeri 👋
+# Ali Mehdi Jafeeri
 
-Final-year Electrical Engineering student at NUST SEECS who builds and ships. I work where **AI engineering** meets **security**, and most of what you'll find here is real, working software rather than coursework: LLM applications with evals and guardrails, a Rust exploit-chain builder, LLM red-teaming tools, and malware reversing.
+I build LLM systems that are allowed to run in production, and the security tools that try to break them.
 
-Outside of class I've shipped two AI automation bots to a client's live server, running daily across four countries. The rest of the time I turn ideas into finished tools, end to end.
+Two of mine already do: a pair of bots on a client's server that check and post job listings across Kuwait, Bahrain, Qatar and Oman every day. Getting a model to do that without quietly inventing things is most of the real work, and it's the part I care about.
 
-📍 Islamabad, Pakistan &nbsp;·&nbsp; 📫 syedalishamsi@outlook.com &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/syed-ali-mehdi-eb7)
+Most of what's here started the same way, from a tool I wanted that didn't exist yet. ROPForge writes its own ROP exploit chains in Rust and clears ROP Emporium 8 for 8. My invoice pipeline hands a document to a human before it will auto-approve a total it can't verify. The safety gateway drops prompt injection and PII before they reach the model. I spend more time on evals, guardrails and failure modes than on the happy path, because that is the difference between a demo and something you can put real traffic through.
+
+Final-year Electrical Engineering, NUST SEECS. Open to remote AI engineering and security roles.
+
+📍 Islamabad, Pakistan &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/syed-ali-mehdi-eb7)
 
 ---
 
@@ -30,5 +34,3 @@ Outside of class I've shipped two AI automation bots to a client's live server, 
 ---
 
 **Tech:** Python · Rust · C / C++ · TypeScript · LLM apps (RAG, agents, evals, guardrails) · Claude &amp; OpenAI APIs · scapy · Ghidra · Linux
-
-Always up for interesting problems that sit between systems and AI. Feel free to reach out.
