@@ -8,7 +8,7 @@ Most of what's here started the same way, from a tool I wanted that didn't exist
 
 Final-year Electrical Engineering, NUST SEECS. Open to remote AI engineering and security roles.
 
-📍 Islamabad, Pakistan &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/syed-ali-mehdi-eb7)
+📍 Islamabad, Pakistan &nbsp;·&nbsp; 📫 alimehdijafeeri@proton.me &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/syed-ali-mehdi-eb7)
 
 ---
 
