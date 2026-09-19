@@ -4,7 +4,7 @@ I build LLM systems that are allowed to run in production, and the security tool
 
 Two of mine already do: a pair of bots on a client's server that check and post job listings across Kuwait, Bahrain, Qatar and Oman every day. Getting a model to do that without quietly inventing things is most of the real work, and it's the part I care about.
 
-Most of what's here started the same way, from a tool I wanted that didn't exist yet. ROPForge writes its own ROP exploit chains in Rust and clears ROP Emporium 8 for 8. My invoice pipeline hands a document to a human before it will auto-approve a total it can't verify. The safety gateway drops prompt injection and PII before they reach the model. I spend more time on evals, guardrails and failure modes than on the happy path, because that is the difference between a demo and something you can put real traffic through.
+Most of what's here started the same way, from a tool I wanted that didn't exist yet. ROPForge writes its own ROP exploit chains in Rust and clears ROP Emporium 8/8. My invoice pipeline hands a document to a human before it will auto-approve a total it can't verify. The safety gateway drops prompt injection and PII before they reach the model. I spend more time on evals, guardrails and failure modes than on the happy path, because that is the difference between a demo and something you can put real traffic through.
 
 Final-year Electrical Engineering, NUST SEECS. Open to remote AI engineering and security roles.
 
