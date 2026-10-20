@@ -2,7 +2,7 @@
 
 I build LLM systems that are allowed to run in production, and the security tools that try to break them.
 
-Few of mine already do: a pair of bots on a client's server that check and post job listings across Kuwait, Bahrain, Qatar and Oman every day. Getting a model to do that without quietly inventing things is most of the real work, and it's the part I care about.
+I've been freelancing for a couple of years, and some of what I build runs in production — systems live on a client's server, doing real work every day. Getting a model to do that without quietly inventing things is most of the real work, and it's the part I care about. The specifics are on my CV.
 
 Most of what's here started the same way, from a tool I wanted that didn't exist yet. ROPForge writes its own ROP exploit chains in Rust and clears ROP Emporium 8/8. My invoice pipeline hands a document to a human before it will auto-approve a total it can't verify. The safety gateway drops prompt injection and PII before they reach the model. I spend more time on evals, guardrails and failure modes than on the happy path, because that is the difference between a demo and something you can put real traffic through.
 
@@ -20,8 +20,10 @@ Final-year Electrical Engineering, NUST SEECS. Open to remote AI engineering and
 - **[ai-prod-monitor](https://github.com/jafeeri/ai-prod-monitor)** — online LLM observability: traces, token cost, a sampled LLM judge, and drift alerts.
 
 ### 🛡️ LLM Security & Red-Teaming
+- **[wardbreaker](https://github.com/jafeeri/wardbreaker)** — a fuzzer for open-weight guardrails (Llama Guard, Prompt Guard). A bypass only counts if the guard is fooled *and* the model behind it still obeys.
+- **[open-llm-safety-gauntlet](https://github.com/jafeeri/open-llm-safety-gauntlet)** — six local LLMs across three attack axes, weighing attack-resistance against over-refusal, and how far a local judge can be trusted.
 - **[ai-safety-gateway](https://github.com/jafeeri/ai-safety-gateway)** — a drop-in proxy that puts prompt-injection, PII, and output guardrails in front of any LLM.
-- **[prompt-injection-detector](https://github.com/jafeeri/prompt-injection-detector)** · **[jailbreak-eval-suite](https://github.com/jafeeri/jailbreak-eval-suite)** · **[persona-adoption-attacks](https://github.com/jafeeri/persona-adoption-attacks)** · **[llm-guardrail-fuzzer](https://github.com/jafeeri/llm-guardrail-fuzzer)** · **[Crescendo-attack-detector](https://github.com/jafeeri/Crescendo-attack-detector)** — a toolkit for measuring and breaking LLM guardrails.
+- **[prompt-injection-detector](https://github.com/jafeeri/prompt-injection-detector)** · **[jailbreak-eval-suite](https://github.com/jafeeri/jailbreak-eval-suite)** · **[persona-adoption-attacks](https://github.com/jafeeri/persona-adoption-attacks)** · **[llm-guardrail-fuzzer](https://github.com/jafeeri/llm-guardrail-fuzzer)** · **[Crescendo-attack-detector](https://github.com/jafeeri/Crescendo-attack-detector)** · **[llm-red-team-eval-framework](https://github.com/jafeeri/llm-red-team-eval-framework)** · **[safety-eval-dashboard](https://github.com/jafeeri/safety-eval-dashboard)** — a toolkit for measuring and breaking LLM guardrails.
 
 ### 🔓 Security & Exploitation
 - **[ropforge](https://github.com/jafeeri/ropforge)** — a Rust tool that automatically assembles working ROP exploit chains for x86-64 ELF. ROP Emporium 8/8, roughly 40x faster than angrop. Research paper in progress.
