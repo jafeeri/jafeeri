@@ -6,7 +6,7 @@ I've been freelancing for a couple of years, and some of what I build runs in pr
 
 Most of what's here started the same way, from a tool I wanted that didn't exist yet. ROPForge writes its own ROP exploit chains in Rust and clears ROP Emporium 8/8. My invoice pipeline hands a document to a human before it will auto-approve a total it can't verify. The safety gateway drops prompt injection and PII before they reach the model. I spend more time on evals, guardrails and failure modes than on the happy path, because that is the difference between a demo and something you can put real traffic through.
 
-Final-year Electrical Engineering, NUST SEECS. Open to remote AI engineering and security roles.
+Final-year Electrical Engineering, NUST SEECS.
 
 📍 Islamabad, Pakistan &nbsp;·&nbsp; 📫 alimehdijafeeri@proton.me &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/syed-ali-mehdi-eb7)
 
